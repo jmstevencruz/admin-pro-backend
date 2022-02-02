@@ -19,6 +19,10 @@ app.use( express.json());
 
 dbConnection();
 
+
+//Directorio Público
+app.use( express.static('public'));
+
 //console.log( process.env);
 // admin
 // 1234
